@@ -1,8 +1,8 @@
-Secure Login Form
+>Secure Login Form
 
 A simple and secure login form web application built using HTML, CSS, and JavaScript. It validates user input, provides real-time feedback, and follows basic security practices such as preventing XSS attacks.
 
-Features
+>Features
 
 Email and password input fields
 
@@ -20,7 +20,7 @@ Prevents form submission if validation fails
 
 Uses safe DOM methods (textContent) to avoid XSS
 
-Validation Rules
+>Validation Rules
 
 Email must follow a valid email format
 
@@ -34,7 +34,7 @@ Prevents default form submission until validation passes
 
 No unsafe rendering of user input
 
-Project Structure
+>Project Structure
 
 index.html – Structure of the login form
 
@@ -42,7 +42,7 @@ style.css – Styling and layout
 
 script.js – Form validation and logic
 
-How to Run
+>How to Run
 
 Download or clone the project
 
@@ -50,7 +50,7 @@ Open index.html in a web browser
 
 Enter email and password to test validation
 
-Technologies Used
+>Technologies Used
 
 HTML5
 
@@ -58,7 +58,7 @@ CSS3
 
 Vanilla JavaScript
 
-Future Improvements
+>Future Improvements
 
 Add password strength indicator
 
