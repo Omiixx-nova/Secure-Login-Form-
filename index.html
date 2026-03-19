@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Login</h2>
+
+        <!-- Login Form -->
+        <form id="loginForm" novalidate>
+            
+            <!-- Email Field -->
+            <div class="form-group">
+                <input type="email" id="email" placeholder="Email">
+                <small id="emailError" class="error"></small>
+            </div>
+
+            <!-- Password Field -->
+            <div class="form-group">
+                <input type="password" id="password" placeholder="Password">
+                <small id="passwordError" class="error"></small>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Login</button>
+
+            <!-- Success Message -->
+            <p id="successMessage" class="success"></p>
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

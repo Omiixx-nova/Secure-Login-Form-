@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Form fields */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Input styling */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Invalid input highlight */
+input.error-border {
+    border-color: red;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Error messages */
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+/* Success message */
+.success {
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+}
